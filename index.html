@@ -1,44 +1,22 @@
-
-            <div class="feature-comparison">
-              <h3>PullNova Feature Overview</h3>
-              <table class="features-table">
-                <thead><tr><th>Feature</th><th>Free</th><th>Pro</th><th>Enterprise</th></tr></thead>
-                <tbody>
-                  <tr><td>AI Code Review</td><td>✓</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>CI/CD Intelligence</td><td>✓</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>Security Scanning</td><td>✓</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>30+ Language Support</td><td>✓</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>Custom Rules</td><td>—</td><td>✓</td><td>✓</td></tr>
-                  <tr><td>Priority AI Analysis</td><td>—</td><td>—</td><td>✓</td></tr>
-                  <tr><td>SLA Guarantee</td><td>—</td><td>—</td><td>✓</td></tr>
-                </tbody>
-              </table>
-              <h4>Key Benefits</h4>
-              <ul>
-                <li>Reduce code review turnaround time by up to 70%</li>
-                <li>Catch security vulnerabilities before they reach production</li>
-                <li>Optimize CI/CD pipeline execution with intelligent caching</li>
-                <li>Improve code quality consistency across your engineering team</li>
-                <li>Seamless integration with GitHub, GitLab, Bitbucket, and more</li>
-              </ul>
-            </div><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PullNova — Smart Code Review & CI/CD Platform for Engineering Teams</title>
-<meta name="description" content="PullNova delivers AI-native code review, CI/CD intelligence, and automated quality gates. Join 10,000+ developers who ship cleaner code, faster.">
-<meta name="keywords" content="PullNova, AI code review, smart CI/CD, developer automation, code quality platform, engineering productivity">
+<title>PullNova Blog — Engineering Insights, Tutorials & Developer Resources</title>
+<meta name="description" content="Expert engineering blog covering AI code review, CI/CD optimization, developer productivity, and software quality best practices. Tutorials, case studies, and deep-dives from the PullNova team.">
+<meta name="keywords" content="engineering blog, AI code review tutorial, CI/CD optimization, developer productivity, software quality, PullNova blog">
 <link rel="canonical" href="https://pullnova.net/">
-<meta property="og:title" content="PullNova — Smart Code Review & CI/CD Platform">
-<meta property="og:description" content="AI-native code review, CI/CD intelligence, and automated quality gates for engineering teams.">
-<meta property="og:type" content="website">
+<meta property="og:title" content="PullNova Blog — Engineering Insights & Developer Resources">
+<meta property="og:description" content="Expert engineering blog: tutorials, deep-dives, and best practices for AI code review, CI/CD, and developer productivity.">
+<meta property="og:type" content="blog">
 <meta property="og:url" content="https://pullnova.net/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="last-modified" content="2026-05-02T00:00:00+00:00">
 <meta property="article:modified_time" content="2026-05-02T00:00:00+00:00">
 <meta property="article:published_time" content="2026-01-15T00:00:00+00:00">
+<link rel="alternate" type="application/rss+xml" title="PullNova Blog RSS Feed" href="/feed.xml">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <style>
@@ -81,6 +59,25 @@
   footer { background: var(--darker); color: #94a3b8; padding: 4rem 0 2rem; }
   footer a { color: var(--accent); text-decoration: none; }
   footer h5, footer h6 { color: #fff; }
+  /* Blog Article Cards */
+  .feature-grid a:hover { text-decoration: none; }
+  .feature-grid .badge { font-size: 0.75rem; font-weight: 500; }
+  /* Resource cards */
+  .price-box h4 i { font-size: 1.2rem; }
+  /* Blog link styles */
+  .case a:hover { color: var(--primary) !important; }
+
+  /* Feature Comparison Table */
+  .features-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+  .features-table th { background: linear-gradient(135deg, var(--dark), var(--darker)); color: #fff; padding: 12px 16px; text-align: left; }
+  .features-table td { padding: 10px 16px; border-bottom: 1px solid #e2e8f0; }
+  .features-table tr:hover td { background: #f1f5f9; }
+  .features-table td:not(:first-child) { text-align: center; }
+  .feature-comparison { background: #fff; border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; }
+  .feature-comparison h3 { font-weight: 700; color: var(--dark); margin-bottom: 0.5rem; }
+  .feature-comparison h4 { font-weight: 700; color: var(--dark); margin-top: 1.5rem; }
+  .feature-comparison ul { color: #64748b; }
+  .feature-comparison ul li { margin-bottom: 0.5rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -232,6 +229,17 @@
 </script>
 
     <link rel="alternate" type="application/rss+xml" title="PullNova Blog RSS" href="https://pullnova.com/rss.xml">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+<!-- End Google Analytics 4 -->
+
 </head>
 <body>
 
@@ -266,43 +274,72 @@
   </div>
 </div>
 
-<section id="features" class="section">
+
+<section class="section" style="background:#fff;">
   <div class="container">
-    <div class="text-center"><span class="section-tag">PLATFORM CAPABILITIES</span></div>
-    <h2 class="section-title text-center">Everything Your Team Needs</h2>
-    <p class="section-sub text-center">PullNova plugs into your workflow and delivers immediate value across the entire development lifecycle.</p>
+    <div class="feature-comparison">
+      <h3>PullNova Feature Overview</h3>
+      <table class="features-table">
+        <thead><tr><th>Feature</th><th>Free</th><th>Pro</th><th>Enterprise</th></tr></thead>
+        <tbody>
+          <tr><td>AI Code Review</td><td>✓</td><td>✓</td><td>✓</td></tr>
+          <tr><td>CI/CD Intelligence</td><td>✓</td><td>✓</td><td>✓</td></tr>
+          <tr><td>Security Scanning</td><td>✓</td><td>✓</td><td>✓</td></tr>
+          <tr><td>30+ Language Support</td><td>✓</td><td>✓</td><td>✓</td></tr>
+          <tr><td>Custom Rules</td><td>—</td><td>✓</td><td>✓</td></tr>
+          <tr><td>Priority AI Analysis</td><td>—</td><td>—</td><td>✓</td></tr>
+          <tr><td>SLA Guarantee</td><td>—</td><td>—</td><td>✓</td></tr>
+        </tbody>
+      </table>
+      <h4>Key Benefits</h4>
+      <ul>
+        <li>Reduce code review turnaround time by up to 70%</li>
+        <li>Catch security vulnerabilities before they reach production</li>
+        <li>Optimize CI/CD pipeline execution with intelligent caching</li>
+        <li>Improve code quality consistency across your engineering team</li>
+        <li>Seamless integration with GitHub, GitLab, Bitbucket, and more</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="articles" class="section">
+  <div class="container">
+    <div class="text-center"><span class="section-tag">LATEST ARTICLES</span></div>
+    <h2 class="section-title text-center">Engineering Insights & Tutorials</h2>
+    <p class="section-sub text-center">Practical guides, deep dives, and lessons learned from the PullNova engineering team.</p>
     <div class="row g-4">
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-microchip"></i></div><h3>AI Code Review</h3><p>Context-aware PR analysis that finds semantic bugs, security vulnerabilities, and style violations. Ships in under 60 seconds per PR.</p></div></div>
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-infinity"></i></div><h3>CI/CD Intelligence</h3><p>Auto-detect flaky tests, optimize pipelines with intelligent caching, and reduce CI minutes by up to 40% across your organization.</p></div></div>
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-shield-virus"></i></div><h3>Security & Compliance</h3><p>OWASP Top 10 detection, secret scanning, and dependency vulnerability analysis baked into every pull request audit.</p></div></div>
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-wand-magic-sparkles"></i></div><h3>Smart Refactoring</h3><p>LLM-powered suggestions that reduce technical debt and improve architecture — explained in plain English, not cryptic lint rules.</p></div></div>
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-chart-simple"></i></div><h3>Engineering Analytics</h3><p>DORA metrics, review turnaround dashboards, and code health trends that help leaders make data-informed decisions.</p></div></div>
-      <div class="col-md-4"><div class="feature-grid"><div class="icon"><i class="fas fa-puzzle-piece"></i></div><h3>Deep Integrations</h3><p>GitHub, GitLab, Bitbucket, Slack, Jira, Linear — and your CI/CD stack. Two-minute setup with sensible defaults.</p></div></div>
+      <div class="col-md-4"><a href="/blog/ai-code-review-guide" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">Code Review</span><div class="icon"><i class="fas fa-microchip"></i></div><h3>The Complete Guide to AI-Powered Code Review in 2026</h3><p>How LLMs are transforming PR workflows: semantic analysis, context-aware suggestions, and measurable quality gains.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 28, 2026 · 12 min read</small></div></a></div>
+      <div class="col-md-4"><a href="/blog/ci-cd-cost-optimization" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">CI/CD</span><div class="icon"><i class="fas fa-infinity"></i></div><h3>How We Cut CI/CD Costs by 40% With Intelligent Caching</h3><p>A hands-on walkthrough of pipeline optimization: flaky test detection, build caching, and parallel execution strategies.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 22, 2026 · 8 min read</small></div></a></div>
+      <div class="col-md-4"><a href="/blog/security-scanning-ci" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">Security</span><div class="icon"><i class="fas fa-shield-virus"></i></div><h3>Building a Security-First CI Pipeline: OWASP, Secrets & Dependency Scanning</h3><p>Practical guide to integrating automated security checks into every PR without slowing down your team.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 18, 2026 · 15 min read</small></div></a></div>
+      <div class="col-md-4"><a href="/blog/smart-refactoring-llm" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">Architecture</span><div class="icon"><i class="fas fa-wand-magic-sparkles"></i></div><h3>LLM-Powered Refactoring: From Legacy Code to Clean Architecture</h3><p>Real-world case study: reducing technical debt in a 200K-line codebase with AI-assisted refactoring.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 14, 2026 · 10 min read</small></div></a></div>
+      <div class="col-md-4"><a href="/blog/dora-metrics-dashboard" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">Analytics</span><div class="icon"><i class="fas fa-chart-simple"></i></div><h3>DORA Metrics That Actually Matter: A Data-Driven Engineering Leader's Guide</h3><p>Which metrics predict team performance, how to track them without gaming the system, and building actionable dashboards.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 10, 2026 · 11 min read</small></div></a></div>
+      <div class="col-md-4"><a href="/blog/dev-tool-integrations-2026" style="text-decoration:none;color:inherit;"><div class="feature-grid"><span class="badge bg-primary mb-2">Tools</span><div class="icon"><i class="fas fa-puzzle-piece"></i></div><h3>Essential Dev Tool Integrations for High-Performance Teams in 2026</h3><p>GitHub, GitLab, Slack, Jira, Linear — how to build a seamless developer workflow that reduces context switching.</p><small class="text-muted"><i class="far fa-calendar me-1"></i>Apr 6, 2026 · 9 min read</small></div></a></div>
     </div>
   </div>
 </section>
 
 <section class="section" style="background:#fff;">
   <div class="container" style="max-width:850px;">
-    <div class="text-center"><span class="section-tag">USE CASES</span></div>
-    <h2 class="section-title text-center">How Engineering Teams Use PullNova</h2>
-    <p class="section-sub text-center">From startups shipping daily to enterprises managing compliance at scale.</p>
-    <div class="case"><h4><i class="fas fa-code-pull-request me-2" style="color:#6366f1;"></i>Automated PR Review</h4><p>Every pull request is analyzed in real-time. PullNova catches logic errors, suggests optimizations, flags security risks, and enforces team conventions — all before a human reviewer touches it. Teams report 60% fewer review iterations.</p></div>
-    <div class="case"><h4><i class="fas fa-gauge me-2" style="color:#6366f1;"></i>Pipeline Performance</h4><p>PullNova monitors your CI/CD pipelines and identifies wasted minutes: flaky tests, redundant builds, and missed caching opportunities. Typical teams save 30-50% on CI costs within the first month.</p></div>
-    <div class="case"><h4><i class="fas fa-scale-balanced me-2" style="color:#6366f1;"></i>Quality Gates as Code</h4><p>Define and enforce quality gates that evolve with your team. PullNova blocks merges that introduce new vulnerabilities, regressions, or technical debt — with full audit trails for compliance.</p></div>
-    <div class="case"><h4><i class="fas fa-building-columns me-2" style="color:#6366f1;"></i>Enterprise Governance</h4><p>Enforce SOC 2, HIPAA, and GDPR requirements automatically. PullNova detects PII leaks, ensures access control patterns, and generates compliance-ready reports for every deployment.</p></div>
+    <div class="text-center"><span class="section-tag">POPULAR READS</span></div>
+    <h2 class="section-title text-center">Most-Read Engineering Articles</h2>
+    <p class="section-sub text-center">Hand-picked deep dives that engineering leaders come back to.</p>
+    <div class="case"><h4><i class="fas fa-code-pull-request me-2" style="color:#6366f1;"></i><a href="/blog/ai-code-review-guide" style="color:inherit;text-decoration:none;">The Complete Guide to AI-Powered Code Review in 2026</a></h4><p>A comprehensive walkthrough of how modern LLMs analyze pull requests: from semantic bug detection to style enforcement and security scanning. Includes benchmarks across 5 major AI review tools.</p></div>
+    <div class="case"><h4><i class="fas fa-gauge me-2" style="color:#6366f1;"></i><a href="/blog/ci-cd-cost-optimization" style="color:inherit;text-decoration:none;">How We Cut CI/CD Costs by 40% With Intelligent Caching</a></h4><p>Real-world pipeline optimization playbook: identify flaky tests, implement smart build caching, and parallelize workflows. Our team saved $18K/month in CI minutes.</p></div>
+    <div class="case"><h4><i class="fas fa-scale-balanced me-2" style="color:#6366f1;"></i><a href="/blog/security-scanning-ci" style="color:inherit;text-decoration:none;">Building a Security-First CI Pipeline</a></h4><p>Practical implementation guide: OWASP Top 10 scanning, secret detection, dependency auditing — all integrated into pull request workflows without slowing deployments.</p></div>
+    <div class="case"><h4><i class="fas fa-building-columns me-2" style="color:#6366f1;"></i><a href="/blog/smart-refactoring-llm" style="color:inherit;text-decoration:none;">LLM-Powered Refactoring: A 200K-Line Codebase Case Study</a></h4><p>How we used AI-assisted refactoring to reduce technical debt by 60% in a legacy monolith. Architecture decisions, tool selection, and lessons learned.</p></div>
   </div>
 </section>
 
-<section id="pricing" class="section">
+<section id="resources" class="section">
   <div class="container" style="max-width:900px;">
-    <div class="text-center"><span class="section-tag">PRICING</span></div>
-    <h2 class="section-title text-center">Simple, Transparent Pricing</h2>
-    <p class="section-sub text-center">Start free. Upgrade when you need more.</p>
+    <div class="text-center"><span class="section-tag">RESOURCES</span></div>
+    <h2 class="section-title text-center">Free Tools & Downloads</h2>
+    <p class="section-sub text-center">Everything you need to level up your engineering practice.</p>
     <div class="row g-4 justify-content-center">
-      <div class="col-md-4"><div class="price-box"><h4>Starter</h4><div style="font-size:3rem;font-weight:800;">Free</div><p class="text-muted">Individuals & open source</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>Unlimited public repos</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>AI code review</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>5 private repos</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Community support</p><a href="#features" class="btn btn-outline-primary w-100 mt-2">Get Started Free</a></div></div>
-      <div class="col-md-4"><div class="price-box popular"><h4>Team</h4><div style="font-size:3rem;font-weight:800;">$12<span style="font-size:1rem;font-weight:400;">/user/mo</span></div><p class="text-muted">Growing engineering orgs</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>Everything in Starter</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Unlimited private repos</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>CI/CD optimization</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Security scanning</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Analytics dashboard</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Priority support</p><a href="#features" class="btn btn-primary w-100 mt-2" style="background:linear-gradient(135deg,#6366f1,#22d3ee);border:none;">Start Free Trial</a></div></div>
-      <div class="col-md-4"><div class="price-box"><h4>Enterprise</h4><div style="font-size:3rem;font-weight:800;">Custom</div><p class="text-muted">Large organizations</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>Everything in Team</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>SSO / SAML / SCIM</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>On-prem deployment</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Custom integrations</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Dedicated support</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>SLA guarantee</p><a href="about.html#contact" class="btn btn-outline-primary w-100 mt-2">Contact Sales</a></div></div>
+      <div class="col-md-4"><div class="price-box"><h4><i class="fas fa-book-open me-2" style="color:#6366f1;"></i>Guides</h4><p class="text-muted">In-depth tutorials & best practices</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>AI Code Review Playbook (PDF)</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>CI/CD Optimization Checklist</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Security Scan Configuration Guide</p><a href="#articles" class="btn btn-outline-primary w-100 mt-2">Browse Guides</a></div></div>
+      <div class="col-md-4"><div class="price-box popular"><h4><i class="fas fa-laptop-code me-2" style="color:#22d3ee;"></i>Tools & Templates</h4><p class="text-muted">Ready-to-use engineering assets</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>PR Review Template (YAML)</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>DORA Metrics Dashboard (Grafana)</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Quality Gate Configs for 5 CI/CDs</p><a href="#articles" class="btn btn-primary w-100 mt-2" style="background:linear-gradient(135deg,#6366f1,#22d3ee);border:none;">Get Free Tools</a></div></div>
+      <div class="col-md-4"><div class="price-box"><h4><i class="fas fa-users me-2" style="color:#6366f1;"></i>Community</h4><p class="text-muted">Learn from fellow engineers</p><hr><p class="text-start"><i class="fas fa-check text-success me-2"></i>Discord Server (2,500+ members)</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Monthly Webinar Series</p><p class="text-start"><i class="fas fa-check text-success me-2"></i>Engineering Newsletter (weekly)</p><a href="about.html#contact" class="btn btn-outline-primary w-100 mt-2">Join Community</a></div></div>
     </div>
   </div>
 </section>
@@ -311,10 +348,10 @@
   <div class="container" style="max-width:800px;">
     <div class="text-center"><span class="section-tag">FAQ</span></div>
     <h2 class="section-title text-center">Frequently Asked Questions</h2>
-    <div class="faq-item"><h5>What makes PullNova different?</h5><p>Unlike traditional linters, PullNova understands code semantics using large language models. It catches real bugs — not just formatting issues — and explains fixes in plain English.</p></div>
-    <div class="faq-item"><h5>How fast is setup?</h5><p>Under 2 minutes via GitHub/GitLab App installation. PullNova begins analyzing pull requests immediately with smart defaults you can customize later.</p></div>
-    <div class="faq-item"><h5>Can PullNova run on-premise?</h5><p>Yes. Enterprise plans include full on-premise deployment options with air-gapped support. Your source code never leaves your infrastructure.</p></div>
-    <div class="faq-item"><h5>Do you support custom rules?</h5><p>Absolutely. Define rules in YAML, train on your team's historical review decisions, and configure per-repository policies. PullNova learns your team's preferences.</p></div>
+    <div class="faq-item"><h5>What topics does the PullNova blog cover?</h5><p>We publish in-depth articles on AI-powered code review, CI/CD optimization, developer productivity, security scanning, software architecture, and engineering leadership — all from practitioners building these systems daily.</p></div>
+    <div class="faq-item"><h5>How often do you publish new articles?</h5><p>We publish 2-3 new engineering articles every week. Subscribe to our <a href="/feed.xml">RSS feed</a> or <a href="about.html#contact">newsletter</a> to never miss an update.</p></div>
+    <div class="faq-item"><h5>Can I contribute guest articles?</h5><p>Absolutely! We welcome guest posts from engineering practitioners. Check out our <a href="about.html#contact">contribution guidelines</a> — we pay competitive rates for quality technical content.</p></div>
+    <div class="faq-item"><h5>Is PullNova still a product or just a blog now?</h5><p>PullNova is very much alive as a product! This blog is our knowledge hub — sharing what we learn while building AI code review and CI/CD tools. Visit <a href="https://pullnova.com">pullnova.com</a> for the product.</p></div>
   </div>
 
             </section>
@@ -323,10 +360,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 mb-4"><h5>Pull<span style="color:#22d3ee;">Nova</span></h5><p>AI-native code review & CI/CD intelligence. Ship smarter.</p></div>
-      <div class="col-md-2 mb-3"><h6>Product</h6><a href="#features" class="d-block mb-1">Features</a><a href="#pricing" class="d-block mb-1">Pricing</a><a href="#" class="d-block">Changelog</a></div>
-      <div class="col-md-2 mb-3"><h6>Company</h6><a href="about.html" class="d-block mb-1">About</a><a href="about.html#contact" class="d-block mb-1">Contact</a><a href="#" class="d-block">Careers</a></div>
+      <div class="col-md-2 mb-3"><h6>Product</h6><a href="#articles" class="d-block mb-1">Articles</a><a href="#resources" class="d-block mb-1">Resources</a><a href="#" class="d-block">Changelog</a></div>
+      <div class="col-md-2 mb-3"><h6>Company</h6><a href="about.html" class="d-block mb-1">About</a><a href="https://pullnova.com" class="d-block mb-1" target="_blank">Product →</a><a href="about.html#contact" class="d-block mb-1">Contact</a><a href="#" class="d-block">Careers</a></div>
       <div class="col-md-2 mb-3"><h6>Legal</h6><a href="privacy-policy.html" class="d-block mb-1">Privacy Policy</a><a href="#" class="d-block">Terms</a></div>
-      <div class="col-md-2 mb-3"><h6>Connect</h6><a href="https://github.com/lianghuahuang888-dev/pullnova-net" class="d-block mb-1"><i class="fab fa-github"></i> GitHub</a><a href="#" class="d-block"><i class="fab fa-twitter"></i> Twitter</a></div>
+      <div class="col-md-2 mb-3"><h6>Connect</h6><a href="https://github.com/lianghuahuang888-dev/pullnova-net" class="d-block mb-1"><i class="fab fa-github"></i> GitHub</a><a href="/feed.xml" class="d-block mb-1"><i class="fas fa-rss"></i> RSS Feed</a><a href="#" class="d-block"><i class="fab fa-twitter"></i> Twitter</a></div>
     </div>
     <hr style="border-color:rgba(255,255,255,0.08);">
     <div class="text-center"><small>&copy; 2026 PullNova. All rights reserved.</small></div>
