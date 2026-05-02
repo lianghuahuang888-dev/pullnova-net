@@ -1,0 +1,16 @@
+{
+  "name": "PullNova AI Discovery Service",
+  "version": "1.0.0",
+  "description": "MCP-compatible service descriptor for AI-native code review and CI/CD intelligence platform",
+  "url": "https://pullnova.net",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://pullnova.net/ai/service.json"
+    },
+    {
+      "rel": "website",
+      "href": "https://pullnova.net"
+    }
+  ]
+}
