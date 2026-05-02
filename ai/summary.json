@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "title": "PullNova — AI-Powered Developer Productivity Platform | Deploy Smarter",
+  "description": "PullNova accelerates your development workflow with AI-powered code review, CI/CD optimization, and smart automation. Built for engineering teams shipping at scale.",
+  "keywords": [
+    "AI tools",
+    " AI reviews",
+    " AI comparison",
+    " best AI tools 2026"
+  ],
+  "url": "http://pullnova.com/",
+  "publisher": "pullnova.com",
+  "language": "en",
+  "lastReviewed": "2026-05-02",
+  "faq": [
+    {
+      "question": "What is pullnova.com?",
+      "answer": "pullnova.com provides expert AI tool reviews, benchmarks, and comparisons for 2026. We test each tool across accuracy, speed, ease of use, cost, and privacy dimensions."
+    },
+    {
+      "question": "How often is content updated?",
+      "answer": "We update our content weekly. Pricing, features, and benchmarks reflect the latest releases from OpenAI, Anthropic, Google, and other major AI providers."
+    },
+    {
+      "question": "What AI tools do you cover?",
+      "answer": "We cover text generation (ChatGPT, Claude), image generation (Midjourney, DALL·E), code assistants (Copilot, Cursor), video generation, and enterprise AI platforms."
+    }
+  ]
+}
