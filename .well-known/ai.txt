@@ -9,26 +9,14 @@ Allow: /privacy-policy.html
 
 User-agent: CCBot
 Allow: /
-Allow: /index.html
-Allow: /about.html
-Allow: /privacy-policy.html
 
 User-agent: Claude-Web
 Allow: /
-Allow: /index.html
-Allow: /about.html
-Allow: /privacy-policy.html
 
 User-agent: PerplexityBot
 Allow: /
-Allow: /index.html
-Allow: /about.html
-Allow: /privacy-policy.html
 
 User-agent: meta-externalagent
 Allow: /
-Allow: /index.html
-Allow: /about.html
-Allow: /privacy-policy.html
 
 Sitemap: https://pullnova.net/sitemap.xml
