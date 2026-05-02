@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PullNova",
+  "url": "https://pullnova.net",
+  "sameAs": [
+    "https://pullnova.com",
+    "https://github.com/lianghuahuang888-dev/pullnova-net"
+  ]
+}
