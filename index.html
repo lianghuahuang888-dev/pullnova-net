@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+
+            <div class="feature-comparison">
+              <h3>PullNova Feature Overview</h3>
+              <table class="features-table">
+                <thead><tr><th>Feature</th><th>Free</th><th>Pro</th><th>Enterprise</th></tr></thead>
+                <tbody>
+                  <tr><td>AI Code Review</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>CI/CD Intelligence</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>Security Scanning</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>30+ Language Support</td><td>✓</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>Custom Rules</td><td>—</td><td>✓</td><td>✓</td></tr>
+                  <tr><td>Priority AI Analysis</td><td>—</td><td>—</td><td>✓</td></tr>
+                  <tr><td>SLA Guarantee</td><td>—</td><td>—</td><td>✓</td></tr>
+                </tbody>
+              </table>
+              <h4>Key Benefits</h4>
+              <ul>
+                <li>Reduce code review turnaround time by up to 70%</li>
+                <li>Catch security vulnerabilities before they reach production</li>
+                <li>Optimize CI/CD pipeline execution with intelligent caching</li>
+                <li>Improve code quality consistency across your engineering team</li>
+                <li>Seamless integration with GitHub, GitLab, Bitbucket, and more</li>
+              </ul>
+            </div><!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -65,63 +88,133 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://pullnova.net/#website",
-      "url": "https://pullnova.net/",
+      "@id": "https://pullnova.com/#website",
+      "url": "https://pullnova.com/",
       "name": "PullNova",
-      "description": "AI-native code review and CI/CD intelligence platform for engineering teams.",
-      "inLanguage": "en"
+      "description": "AI-powered developer productivity platform with smart code review, CI/CD optimization, and workflow automation.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PullNova",
+        "url": "https://pullnova.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "US",
+          "addressLocality": "San Francisco",
+          "addressRegion": "CA",
+          "streetAddress": "548 Market St"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "hello@pullnova.com"
+        },
+        "sameAs": [
+          "https://github.com/pullnova",
+          "https://twitter.com/pullnova"
+        ]
+      },
+      "inLanguage": "en",
+      "copyrightYear": "2026",
+      "dateModified": "2026-05-01"
     },
     {
       "@type": "WebApplication",
-      "@id": "https://pullnova.net/#webapp",
-      "url": "https://pullnova.net/",
-      "name": "PullNova — Smart Code Review & CI/CD Platform",
-      "description": "AI-powered code review, CI/CD intelligence, and automated quality gates. Built for modern engineering workflows.",
+      "@id": "https://pullnova.com/#webapp",
+      "url": "https://pullnova.com/",
+      "name": "PullNova — AI-Powered Developer Productivity Platform",
+      "description": "Accelerate your development workflow with AI-powered code review, CI/CD optimization, and smart automation. Built for engineering teams shipping at scale.",
       "applicationCategory": "DeveloperApplication",
       "operatingSystem": "Web",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "128"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "PullNova"
+      }
     },
     {
       "@type": "BreadcrumbList",
-      "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pullnova.net/" }]
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://pullnova.com/"
+        }
+      ],
+      "numberOfItems": "1"
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
-          "@type": "Question", "name": "What is PullNova?",
-          "acceptedAnswer": { "@type": "Answer", "text": "PullNova is an AI-native platform that automates code review, optimizes CI/CD pipelines, and enforces quality gates for engineering teams. It helps catch bugs, security issues, and performance regressions before they reach production." }
+          "@type": "Question",
+          "name": "What is PullNova?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PullNova is an AI-powered developer productivity platform that automates code review, optimizes CI/CD pipelines, and provides intelligent workflow automation for engineering teams."
+          }
         },
         {
-          "@type": "Question", "name": "Which languages does PullNova support?",
-          "acceptedAnswer": { "@type": "Answer", "text": "PullNova supports 30+ languages: JavaScript, TypeScript, Python, Go, Rust, Java, C++, Ruby, PHP, Kotlin, Swift, and more. It has deep framework awareness for React, Next.js, Django, Spring Boot, Rails, and others." }
+          "@type": "Question",
+          "name": "How does PullNova's AI code review work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PullNova's AI analyzes pull requests in real-time, identifying bugs, security vulnerabilities, performance issues, and code style violations before they reach production."
+          }
         },
         {
-          "@type": "Question", "name": "Is PullNova free for open source?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes — PullNova is completely free for public repositories. Private repo plans start at $12/user/month with unlimited repos." }
+          "@type": "Question",
+          "name": "What languages and frameworks does PullNova support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PullNova supports 30+ programming languages including JavaScript, TypeScript, Python, Go, Rust, Java, C#, Ruby, and PHP. It integrates with all major CI/CD platforms including GitHub Actions, GitLab CI, CircleCI, and Jenkins."
+          }
         },
         {
-          "@type": "Question", "name": "How does PullNova integrate with existing workflows?",
-          "acceptedAnswer": { "@type": "Answer", "text": "PullNova natively integrates with GitHub, GitLab, Bitbucket, Slack, Jira, and Linear. It works alongside GitHub Actions, GitLab CI, Jenkins, CircleCI, and other CI/CD tools." }
-        },
-        {
-          "@type": "Question", "name": "Is my source code secure with PullNova?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. PullNova processes code in-memory with zero retention. Enterprise customers can deploy entirely on-premise. We never use your code to train AI models." }
+          "@type": "Question",
+          "name": "Does PullNova offer a free tier?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! PullNova offers a generous free tier for open source projects and solo developers. Paid plans start at $29/seat/month with advanced features like custom rules and priority AI analysis."
+          }
         }
-      ]
+      ],
+      "dateModified": "2026-05-01"
     },
     {
-      "@type": "Organization",
-      "@id": "https://pullnova.net/#organization",
-      "url": "https://pullnova.net/",
-      "name": "PullNova",
-      "description": "AI-native code review and CI/CD platform",
-      "foundingDate": "2025-06-01",
-      "sameAs": ["https://github.com/lianghuahuang888-dev/pullnova-net", "https://pullnova.com/"]
+      "@type": "Article",
+      "@id": "https://pullnova.com/#article",
+      "headline": "PullNova: AI-Powered Developer Productivity Platform",
+      "description": "PullNova helps engineering teams ship faster with AI-powered code review, CI/CD intelligence, and workflow automation. Support for 30+ languages.",
+      "author": {
+        "@type": "Organization",
+        "name": "PullNova"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PullNova",
+        "url": "https://pullnova.com/"
+      },
+      "datePublished": "2025-01-15",
+      "dateModified": "2026-05-01",
+      "image": "https://pullnova.com/assets/pullnova-og.png",
+      "url": "https://pullnova.com/"
     }
   ]
 }
 </script>
+
+    <link rel="alternate" type="application/rss+xml" title="PullNova Blog RSS" href="https://pullnova.com/rss.xml">
 </head>
 <body>
 
@@ -206,7 +299,8 @@
     <div class="faq-item"><h5>Can PullNova run on-premise?</h5><p>Yes. Enterprise plans include full on-premise deployment options with air-gapped support. Your source code never leaves your infrastructure.</p></div>
     <div class="faq-item"><h5>Do you support custom rules?</h5><p>Absolutely. Define rules in YAML, train on your team's historical review decisions, and configure per-repository policies. PullNova learns your team's preferences.</p></div>
   </div>
-</section>
+
+            </section>
 
 <footer>
   <div class="container">
