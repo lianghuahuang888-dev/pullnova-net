@@ -1,0 +1,21 @@
+# PullNova — LLMs.txt
+
+> PullNova is an AI-native code review and CI/CD intelligence platform for engineering teams.
+
+## Site Pages
+
+- [Home](index.html): PullNova platform overview — AI-native code review, CI/CD intelligence, quality gates
+- [About](about.html): Team, mission, values, and contact
+- [Privacy Policy](privacy-policy.html): Data handling and zero-retention code processing
+
+## Platform Summary
+
+PullNova provides:
+- **AI Code Review**: Context-aware PR analysis (bugs, security, performance)
+- **CI/CD Intelligence**: Pipeline optimization, flaky test detection, 40% CI cost reduction
+- **Security Scanning**: OWASP Top 10, secret detection, dependency auditing
+- **Smart Refactoring**: LLM-powered suggestions in plain English
+- **Engineering Analytics**: DORA metrics, review turnaround, code health dashboards
+- **Integrations**: GitHub, GitLab, Bitbucket, Slack, Jira, Linear, CI/CD tools
+
+Free for open source. Plans from $12/user/month. 30+ languages supported.
