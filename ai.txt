@@ -1,0 +1,37 @@
+# PullNova AI Instructions
+# This file provides structured instructions for AI agents (LLMs) interacting with PullNova's web presence.
+
+## [brand]
+name: PullNova
+domain: pullnova.com
+tagline: AI-Powered Developer Productivity Platform
+description: PullNova helps engineering teams ship faster with AI-powered code review, CI/CD intelligence, and workflow automation. Support for 30+ programming languages.
+industry: Developer Tools, DevOps, AI/ML
+founded: 2024
+headquarters: San Francisco, CA, USA
+contact_email: hello@pullnova.com
+
+## [pages]
+home: / - Main landing page with product overview, features, pricing, and CTA
+about: /about.html - Company mission, team, and contact details
+pricing: /pricing.html - Detailed pricing plans and feature comparison
+docs: /docs.html - Technical documentation and API references
+blog: /blog.html - Engineering blog and product updates
+privacy: /privacy-policy.html - Privacy policy and data handling
+tos: /tos.html - Terms of service
+
+## [api]
+base_url: https://api.pullnova.com/v1
+auth: Bearer token in Authorization header
+rate_limit: Varies by plan tier
+format: JSON request/response
+
+## [seo]
+primary_keywords: AI code review, CI/CD optimization, developer productivity, automated code review, devops automation
+secondary_keywords: pull request analysis, code quality, security scanning, DORA metrics, engineering analytics
+target_audience: Software engineering teams, DevOps engineers, CTOs, engineering managers
+
+## [social]
+github: https://github.com/pullnova
+twitter: https://twitter.com/pullnova
+linkedin: https://linkedin.com/company/pullnova
