@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>PullNova Blog</title>
+  <link>https://pullnova.net/</link>
+  <description>Engineering Insights, Walkthroughs & Developer Resources</description>
+  <language>en</language>
+  <lastBuildDate>Mon, 05 May 2026 00:00:00 GMT</lastBuildDate>
+  <atom:link href="https://pullnova.net/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Claude vs ChatGPT for Coding 2026 — Head-to-Head Comparison</title>
+    <link>https://pullnova.net/blog/claude-vs-chatgpt-coding.html</link>
+    <description>Comprehensive comparison of Claude 4 and ChatGPT 4o for software development. Benchmarks, real-world tests, and pricing analysis. LMSYS ELO rankings, SWE-bench scores, and developer survey data.</description>
+    <pubDate>Mon, 05 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://pullnova.net/blog/claude-vs-chatgpt-coding.html</guid>
+  </item>
+  <item>
+    <title>How to Choose the Right AI Tool in 2026 — A Practical Framework</title>
+    <link>https://pullnova.net/blog/how-to-choose-ai-tool.html</link>
+    <description>A 7-dimension framework for evaluating AI tools: performance, pricing, privacy, integration, support, reliability, and future-proofing. Backed by McKinsey and CB Insights data.</description>
+    <pubDate>Mon, 05 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://pullnova.net/blog/how-to-choose-ai-tool.html</guid>
+  </item>
+  <item>
+    <title>Best Free AI Image Generators 2026 — Compared & Rated</title>
+    <link>https://pullnova.net/blog/best-free-ai-image-generators.html</link>
+    <description>Midjourney vs Stable Diffusion vs Leonardo vs Bing Image Creator. Free tools now achieve 85% of premium quality per G2 Spring 2026.</description>
+    <pubDate>Mon, 05 May 2026 00:00:00 GMT</pubDate>
+    <guid>https://pullnova.net/blog/best-free-ai-image-generators.html</guid>
+  </item>
+</channel>
+</rss>
